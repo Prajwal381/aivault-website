@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIVault — The #1 Directory of AI Tools & Resources</title>
+  <meta name="description" content="Discover the best AI tools, apps, and resources. Updated daily. Find AI tools for writing, coding, image generation, video, marketing and more." />
+  <meta name="keywords" content="AI tools, artificial intelligence, ChatGPT alternatives, best AI apps 2025, AI directory, free AI tools" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="AIVault — The #1 Directory of AI Tools" />
+  <meta property="og:description" content="Discover the best AI tools updated daily. 500+ AI tools organized by category." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <link rel="canonical" href="https://yourdomain.com" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <!-- ===== ADSTERRA AD CODE - Replace with your actual Adsterra codes ===== -->
+  <!-- Adsterra Native Banner 728x90 -->
+  <!-- <script async src="//your-adsterra-code.js"></script> -->
+  <!-- ======================================================================= -->
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AIVault",
+    "url": "https://yourdomain.com",
+    "description": "The #1 directory of AI tools and resources",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://yourdomain.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="/" class="logo">
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">AI<strong>Vault</strong></span>
+    </a>
+    <div class="nav-links">
+      <a href="#categories">Categories</a>
+      <a href="blog.html">Blog</a>
+      <a href="#newsletter" class="nav-cta">Get Updates</a>
+    </div>
+    <button class="hamburger" id="menuBtn">☰</button>
+  </nav>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">⚡ Updated Daily — 500+ Tools Listed</div>
+    <h1>Find The <em>Perfect</em> AI Tool<br>For Every Job</h1>
+    <p class="hero-sub">The world's most curated AI tools directory. Handpicked, reviewed, and organized so you find what you need in seconds.</p>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search 500+ AI tools… (e.g. 'image generation')" autocomplete="off" />
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong id="toolCount">500+</strong><span>AI Tools</span></div>
+      <div class="stat"><strong>48</strong><span>Categories</span></div>
+      <div class="stat"><strong>12K+</strong><span>Monthly Users</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="floating-cards">
+      <div class="fcard" style="--d:0s">🖼️ Image AI</div>
+      <div class="fcard" style="--d:0.3s">✍️ Writing</div>
+      <div class="fcard" style="--d:0.6s">💻 Coding</div>
+      <div class="fcard" style="--d:0.9s">🎬 Video</div>
+      <div class="fcard" style="--d:1.2s">🔊 Audio</div>
+      <div class="fcard" style="--d:1.5s">📊 Data</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== AD BANNER TOP (Adsterra 728x90) ========== -->
+<div class="ad-container ad-banner-top">
+  <div class="ad-label">Advertisement</div>
+  <!-- REPLACE THIS WITH YOUR ADSTERRA BANNER CODE -->
+  <div class="ad-placeholder" data-ad="banner-728x90">
+    <span>📢 Your Ad Here — <a href="mailto:ads@yourdomain.com">Advertise with Us</a> | Or connect Adsterra below</span>
+  </div>
+  <!-- END AD CODE -->
+</div>
+
+<!-- ========== TRENDING TOOLS ========== -->
+<section class="section trending-section">
+  <div class="section-header">
+    <h2>🔥 Trending This Week</h2>
+    <a href="#all-tools" class="see-all">See all →</a>
+  </div>
+  <div class="tools-grid" id="trendingGrid">
+    <!-- Populated by JS -->
+  </div>
+</section>
+
+<!-- ========== CATEGORIES ========== -->
+<section class="section" id="categories">
+  <div class="section-header">
+    <h2>Browse by Category</h2>
+  </div>
+  <div class="categories-grid" id="categoriesGrid">
+    <!-- Populated by JS -->
+  </div>
+</section>
+
+<!-- ========== AD — IN-CONTENT (Adsterra Native) ========== -->
+<div class="ad-container ad-native">
+  <div class="ad-label">Sponsored</div>
+  <!-- REPLACE WITH ADSTERRA NATIVE AD CODE -->
+  <div class="ad-placeholder ad-native-placeholder">
+    <div class="ad-native-inner">
+      <div class="ad-native-icon">🚀</div>
+      <div>
+        <strong>Promote Your AI Tool Here</strong>
+        <p>Reach 12,000+ monthly AI enthusiasts. <a href="mailto:ads@yourdomain.com">Contact us</a> for sponsored placement.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== ALL TOOLS ========== -->
+<section class="section" id="all-tools">
+  <div class="section-header">
+    <h2>All AI Tools</h2>
+    <div class="filter-tabs" id="filterTabs">
+      <button class="filter-btn active" data-cat="all">All</button>
+    </div>
+  </div>
+  <div class="tools-grid" id="allToolsGrid">
+    <!-- Populated by JS -->
+  </div>
+  <div class="load-more-wrap">
+    <button class="load-more-btn" id="loadMoreBtn">Load More Tools ↓</button>
+  </div>
+</section>
+
+<!-- ========== NEWSLETTER (Email List = Free Traffic) ========== -->
+<section class="newsletter-section" id="newsletter">
+  <div class="newsletter-inner">
+    <div class="newsletter-text">
+      <h2>📬 Get Weekly AI Tool Picks</h2>
+      <p>Every Monday, we send the 5 best new AI tools directly to your inbox. Free forever. No spam.</p>
+      <div class="newsletter-stats">
+        <span>✅ 3,200+ subscribers</span>
+        <span>✅ 1-click unsubscribe</span>
+      </div>
+    </div>
+    <form class="newsletter-form" id="newsletterForm">
+      <input type="email" placeholder="your@email.com" required id="emailInput" />
+      <button type="submit">Subscribe Free →</button>
+      <p class="newsletter-success" id="newsletterSuccess" style="display:none">🎉 You're in! Check your inbox.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ========== AD FOOTER BANNER ========== -->
+<div class="ad-container ad-footer">
+  <div class="ad-label">Advertisement</div>
+  <!-- REPLACE WITH ADSTERRA STICKY FOOTER CODE -->
+  <div class="ad-placeholder">
+    <span>Adsterra Sticky Footer Ad — 320x50 or 728x90</span>
+  </div>
+</div>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo"><span class="logo-icon">⬡</span><span class="logo-text">AI<strong>Vault</strong></span></div>
+      <p>The internet's most trusted AI tools directory. Helping professionals find the right AI tool since 2024.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Directory</h4>
+      <a href="#categories">All Categories</a>
+      <a href="#trending">Trending Tools</a>
+      <a href="blog.html">AI Blog</a>
+      <a href="submit.html">Submit a Tool</a>
+    </div>
+    <div class="footer-links">
+      <h4>Company</h4>
+      <a href="about.html">About</a>
+      <a href="advertise.html">Advertise</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="sitemap.xml">Sitemap</a>
+    </div>
+    <div class="footer-links">
+      <h4>Top Categories</h4>
+      <a href="#">Writing AI</a>
+      <a href="#">Image Generation</a>
+      <a href="#">Coding Assistants</a>
+      <a href="#">Video AI</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 AIVault. Built to help you work smarter with AI.</p>
+    <p class="affiliate-disclosure">Some links may be affiliate links. <a href="privacy.html">Learn more</a>.</p>
+  </div>
+</footer>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#categories">Categories</a>
+  <a href="blog.html">Blog</a>
+  <a href="#newsletter">Get Updates</a>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

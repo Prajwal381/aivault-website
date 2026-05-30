@@ -1,0 +1,5 @@
+node_modules/
+data/subscribers.json
+data/clicks.json
+data/events.json
+.env
