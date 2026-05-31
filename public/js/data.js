@@ -170,7 +170,7 @@ const TOOLS = [
     id: 21, name: "ElevenLabs", category: "audio", emoji: "🔊",
     desc: "The most realistic AI voice generator. Clone voices, create audiobooks, and produce voiceovers in seconds.",
     pricing: "freemium", stars: 4.8, trending: true,
-    url: "https://elevenlabs.io/?ref=aivault",
+    url: "https://try.elevenlabs.io/6i2asqai12rd",
     affiliate: true, tags: ["voice", "tts", "audiobook"]
   },
   {
